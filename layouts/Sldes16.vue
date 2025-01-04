@@ -48,24 +48,74 @@ const sections = [
   },
 ];
 </script>
+<style scoped>
+.green-layout {
+  background-image: url('/assets/images/4.1.3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
 
-การจัดกลุ่มบทความตามเกณฑ์
-บทความที่อัปโหลดมาสามารถจัดกลุ่มได้ตามเกณฑ์ดังนี้:
+.layout-header {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 80%;
+  padding: 15px 0;
+  border-radius: 50px;
+  box-shadow: 0 0 20px rgba(211, 225, 8, 0.5), 0 0 15px rgba(0, 0, 0, 0.8);
+}
 
-การพัฒนาเครื่องมือผู้ช่วยเสมือนอัจฉริยะด้วย LLM:
+.main-title {
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ffba08, #ffec61);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
 
-บทความ: Intelligent Virtual Assistants with LLM-based Process Automation​
-, AutoDroid: LLM-powered Task Automation in Android​
-.
-เนื้อหา: การใช้โมเดลภาษาใหญ่ (LLM) เพื่อพัฒนาผู้ช่วยเสมือนที่สามารถดำเนินงานที่ซับซ้อนได้ เช่น การใช้งานแอปพลิเคชันมือถือ การจัดการ UI และการดำเนินการตามคำสั่งผู้ใช้.
-การจัดการงานและการบริหารเวลา:
+.layout-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content:  space-between; /* กึ่งกลางแนวนอน */
+  width: 90%;
+  max-width: 1000px;
+  padding: 20px 0;
+}
 
-บทความ: TIME LINE SCHEDULER USING AI​
-.
-เนื้อหา: การพัฒนาระบบจัดการงานและตารางเวลาโดยใช้ AI และการเพิ่มประสิทธิภาพ.
-การประยุกต์ใช้ AI ในการจัดการส่วนตัว:
+.section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
-บทความ: A Smart Personal AI Assistant​
-, An Intelligent Personal Assistant for Task and Time Management​
-.
-เนื้อหา: ผู้ช่วยส่วนตัวที่ออกแบบมาเพื่อช่วยจัดการงานในชีวิตประจำวัน เช่น การกำหนดเวลา และการปรับตัวตามความต้องการผู้ใช้.
+.content-section {
+  background-color: rgba(0, 0, 0, 0.85);
+  border: 2px solid #00ff80;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 1.0);
+  padding: 13px;
+  text-align: left;
+  font-size: 1.0rem;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffba08;
+  margin-bottom: 10px;
+}
+
+.layout-footer {
+  font-size: 0.85rem;
+  color: #f1f1f1;
+  text-align: center;
+}
+</style>
