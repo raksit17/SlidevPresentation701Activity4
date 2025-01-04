@@ -2,7 +2,7 @@
   <div class="green-layout">
     <!-- Header -->
     <header class="layout-header">
-      <h1 class="main-title">สิ่งที่สามารถยืนยันหรือได้แนวคิดเพิ่มเติมเกี่ยวกับปัญหาการจัดการงานและการบริหารเวลาในทีมจากข้อความใน Line</h1>
+      <h1 class="main-title">สิ่งที่สามารถยืนยันหรือได้แนวคิดเพิ่มเติมเกี่ยว</h1>
     </header>
 
 
